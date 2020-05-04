@@ -29,7 +29,7 @@ header {
 }
 
 .hero-text-box {
-    position: absolute;
+    position: relative;
     width: 1140px;
     top: 50%;
     left: 50%;
@@ -97,7 +97,8 @@ h1 {
 }
 
 h2 {
-    font-size: 180%;
+    color: black;
+    text-transform: uppercase;
     word-spacing: 2px;
 }
 
@@ -117,17 +118,18 @@ h2 {
     padding: 10px 32px;
     border: 2px solid #4CAF50;
     text-decoration: none;
-    /* Green */
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn-full:link, .btn-full:visited {
+    margin-bottom: 10px;
     background-color: #4CAF50;
     color: white;
 }
 
 .btn-ghost:link, .btn-ghost:visited {
     /* text-decoration: none; */
+
     color: #4CAF50;
 }
 
