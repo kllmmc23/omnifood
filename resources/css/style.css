@@ -29,7 +29,7 @@ header {
 }
 
 .hero-text-box {
-    position: relative;
+    position: absolute;
     width: 1140px;
     top: 50%;
     left: 50%;
@@ -75,25 +75,29 @@ header {
     max-width: 1140px;
     margin: 0 auto;
 }
+section {
+    padding: 80px 0;
+}
+/*-------------------------
+         HEADINGS
+-------------------------*/
 
 h1, h2 {
     font-weight: 300;
-    margin-top: 0;
-    margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 h1 {
-    word-spacing: 4px;
-    font-size: 240%;
+    margin-top: 0;
+    margin-bottom: 20px;
     color: #ffffff;
+    font-size: 240%;
+    word-spacing: 4px;
 }
 
 h2 {
-    color: black;
     font-size: 180%;
-    text-transform: uppercase;
     word-spacing: 2px;
 }
 
@@ -117,12 +121,12 @@ h2 {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.btn-hungry:link, .btn-hungry:visited {
+.btn-full:link, .btn-full:visited {
     background-color: #4CAF50;
     color: white;
 }
 
-.btn-more:link, .btn-more:visited {
+.btn-ghost:link, .btn-ghost:visited {
     /* text-decoration: none; */
     color: #4CAF50;
 }
@@ -138,17 +142,17 @@ h2 {
      Section: Features
 -------------------------*/
 
-.features {
+/* .section-features {
     text-align: center;
     padding: 40px 0;
 }
 
-.features div h3 {
+.section-features div h3 {
     font-size: 40px;
     margin-bottom: 20px;
 }
 
-.features div p {
+.section-features div p {
     font-size: 20px;
     text-align: left;
 }
@@ -156,4 +160,4 @@ h2 {
 .line-separator {
     text-align: center;
     width: 20px;
-}
+} */
