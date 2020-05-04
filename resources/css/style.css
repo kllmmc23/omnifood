@@ -76,17 +76,25 @@ header {
     margin: 0 auto;
 }
 
-h1 {
-    color: #ffffff;
-    font-size: 240%;
+h1, h2 {
     font-weight: 300;
-    line-height: 120%;
     margin-top: 0;
     margin-bottom: 20px;
-    color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+h1 {
     word-spacing: 4px;
+    font-size: 240%;
+    color: #ffffff;
+}
+
+h2 {
+    color: black;
+    font-size: 180%;
+    text-transform: uppercase;
+    word-spacing: 2px;
 }
 
 /*-------------------------
@@ -144,8 +152,8 @@ h1 {
     font-size: 20px;
     text-align: left;
 }
+
 .line-separator {
-     
-    text-align:  center;
+    text-align: center;
     width: 20px;
 }
