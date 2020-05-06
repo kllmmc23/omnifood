@@ -137,7 +137,8 @@ section {
 /*---------IDs-----------------*/
 
 #food, #meals, #steps {
-    transition: ease-out;
+    transition: ease-in-out;
+    
 }
 
 /*------------------BOX----------------*/
