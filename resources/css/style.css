@@ -16,7 +16,6 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility;
     scroll-behavior: smooth;
-
 }
 
 .clearfix {
@@ -74,6 +73,7 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
+    border: 0;
     transition-duration: border .4s;
 }
 
@@ -138,7 +138,6 @@ section {
 
 #food, #meals, #steps {
     transition: ease-in-out;
-    
 }
 
 /*------------------BOX----------------*/
@@ -201,12 +200,42 @@ h2::after {
     line-height: 145%;
 }
 
+/*------------------ICONS---------------*/
+
 .icon-big {
     font-size: 350%;
     display: block;
     color: #4CAF50;
     margin-bottom: 10px;
     text-align: center;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #4CAF50;
+    font-size: 120%;
+    margin-right: 10px;
+    /*---how to align text and icons---*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+/*-------------links--------------*/
+
+a:link, a:visited {
+    color: #4CAF50;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #4CAF50;
+    transition: all .2s;
+}
+
+a:hover, a:active {
+    border-bottom: 1px solid transparent;
+    color: #555;
 }
 
 /*-------------------------
@@ -258,7 +287,7 @@ h2::after {
 -------------------------*/
 
 .section-steps {
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(240, 240, 240);
 }
 
 /* 
@@ -303,17 +332,28 @@ h2::after {
     margin-right: 4px;
 }
 
+.btn-app:link, .btn-app:visited {
+    border: 0;
+}
+
 .btn-app img {
     height: 50px;
     width: auto;
     margin-right: 10px;
+    text-decoration: none;
+    border: 0;
 }
 
 /*-------------------------
-     Section: NEW
+     Section: Cities
 -------------------------*/
 
-.section-new {
-    width: auto;
-    height: 1000px;
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 5px;
 }
