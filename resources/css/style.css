@@ -120,6 +120,15 @@ section {
     padding: 80px 0;
 }
 
+/*---------IDs-----------------*/
+
+#food, #meals, #steps {
+    scroll-behavior: smooth;
+    transition: ease-out;
+}
+
+/*------------------BOX----------------*/
+
 .box {
     padding: 1%;
 }
@@ -151,8 +160,9 @@ h2 {
 }
 
 h3 {
-    font-size: 100%;
+    font-size: 115%;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 h2::after {
@@ -229,19 +239,6 @@ h2::after {
     margin-bottom: 30px;
 }
 
-/*
-
-.section-features div h3 {
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
-.section-features div p {
-    font-size: 20px;
-    text-align: left;
-}
-
-.line-separator {
-    text-align: center;
-    width: 20px;
-} */
+/*-------------------------
+     Section: Features
+-------------------------*/
