@@ -400,3 +400,24 @@ cite img {
     margin-right: 10px;
     vertical-align: middle;
 }
+
+/*-------------------------
+     Section: SIgn up
+-------------------------*/
+.section-plans {
+    background-color: rgb(240, 240, 240);
+}
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+}
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+
+
+
