@@ -243,7 +243,7 @@ a:hover, a:active {
      BUTTONS
 -------------------------*/
 
-.btn:link, .btn:visited {
+.btn:link, .btn:visited, input[type=submit] {
     margin-right: 15px;
     border-radius: 200px;
     transition-duration: 0.4s;
@@ -258,7 +258,7 @@ a:hover, a:active {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.btn-full:link, .btn-full:visited {
+.btn-full:link, .btn-full:visited, input[type=submit] {
     margin-bottom: 10px;
     background-color: #4CAF50;
     color: white;
@@ -268,7 +268,7 @@ a:hover, a:active {
     color: #4CAF50;
 }
 
-.btn:hover, .btn:active {
+.btn:hover, .btn:active, input[type=submit]:hover, input[type=submit]:active {
     background-color: rgb(56, 136, 59);
     border: 2px solid rgb(56, 136, 59);
     color: white;
@@ -413,6 +413,7 @@ cite img {
     border-radius: 5px;
     width: 90%;
     margin-left: 5%;
+    box-shadow: 0 2px 2px #e8e8e8;
 }
 
 .plan-box div {
@@ -422,6 +423,8 @@ cite img {
 
 .plan-box div:first-child {
     background-color: #fdfdfd;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .plan-box div:last-child {
@@ -455,4 +458,111 @@ cite img {
 
 .plan-box ul li {
     padding: 5px;
+}
+
+/*-------------------------
+     Section: Form
+-------------------------*/
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*focus {
+    outline: none;
+}
+
+/*-------------------------
+     Section: Footer
+-------------------------*/
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li, .social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child, .social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link, .footer-nav li a:visited, .social-links li a:link, .social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: all ease;
+}
+
+.footer-nav li a:hover, .footer-nav li a:active {
+    columns: #ddd;
+}
+.social-links li a:link,.social-links li a:visited{
+    font-size: 160%;
+}
+.ion-social-github,.ion-social-facebook, .ion-social-googleplus,
+.ion-social-googleplus, .ion-social-instagram {
+    transition: all ease;
+}
+.ion-social-github:hover {
+    color: #211F1F;
+    background-color: white;
+}
+
+.ion-social-facebook:hover {
+    padding-right: 8px;
+    padding-left: 8px;
+    background-color: #3b5998;
+    color: white;
+}
+
+.ion-social-googleplus:hover {
+    background-color: white;
+    color: #ea4335;
+}
+
+.ion-social-instagram:hover {
+    background-color: white;
+    color: #c32aa3;
+}
+
+.ion-social-twitter:hover {
+    background-color: #1da1f2;
+    color: white;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
 }
