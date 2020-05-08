@@ -1,6 +1,6 @@
 /* Higher resolutions: from 1201px to 1900px */
 
-@media only screen and (max-width: 2100px) {
+@media only screen and (max-width: 4000px) {
     body {
         font-size: 23px;
     }
@@ -9,7 +9,7 @@
         padding: 0 2%;
     }
     .row {
-        max-width: 2100px;
+        max-width: 4000px;
         padding: 0 2%;
     }
 }
