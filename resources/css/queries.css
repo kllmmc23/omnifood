@@ -35,6 +35,9 @@
     body {
         font-size: 18px;
     }
+    .main-nav li {
+        margin-left: 27px;
+    }
     .section {
         padding: 60px 0;
     }

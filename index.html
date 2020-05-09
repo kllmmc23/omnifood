@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="vendors/css/normalize.css">
     <link rel="stylesheet" href="vendors/css/grid.css">
     <link rel="stylesheet" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" href="vendors/css/animate.css">
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
@@ -13,14 +14,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>food website</title>
 </head>
-
 <body>
     <header>
         <nav>
             <div class="row">
                 <img src="resources/img/logo-white.png" alt="white logo" class="logo">
+                <img src="resources/img/logo.png" alt="white logo" class="logo-black">
                 <ul class="main-nav">
-                    <li><a href="#meals">Food delivery</a></li>
+                    <li><a href="#food">Food delivery</a></li>
                     <li><a href="#steps">How it works</a></li>
                     <li><a href='#cities'>cities</a></li>
                     <li><a href='#signup'>Sign up</a></li>
@@ -35,14 +36,14 @@
             <!-- <img src="resources/img/hero.jpg" alt="Dinner plate with chicken, carrots and asparagus"> -->
         </div>
     </header>
-    <section class="section-features" id="food">
+    <section class="section-features js--section-features" id="food">
         <div class="row">
             <h2>Get food fast &mdash; not fast food.</h2>
             <p class="long-copy">Hello, we’re Omnifood, your new premium food delivery service. We know you’re always
                 busy. No time
                 for cooking. So let us take care of that, we’re really good at it, we promise!</p>
         </div>
-        <div class="row">
+        <div class="row js--wp-1">
             <div class="col span-1-of-4 box">
                 <i class="ion-ios-heart-outline icon-big"></i>
                 <h3>Up to 365 days/year</h3>
@@ -124,7 +125,7 @@
         </div>
         <div class="row">
             <div class="col span-1-of-2 steps-box">
-                <img src="resources/img/app-iPhone.png" alt="Omnifood app on iPhone" class="app-screen">
+                <img src="resources/img/app-iPhone.png" alt="Omnifood app on iPhone" class="app-screen js--wp-2">
             </div>
             <div class="col span-1-of-2 steps-box trial">
                 <div class="works-step">
@@ -149,7 +150,7 @@
         <div class="row">
             <h2>We're currently in these cities</h2>
         </div>
-        <div class="row">
+        <div class="row js--wp-3">
             <div class="col span-1-of-4 box">
                 <img src="resources/img/lisbon-3.jpg" alt="Lisbon">
                 <div class="city-feature">
@@ -244,7 +245,7 @@
         </div>
         <div class="row">
             <div class="col span-1-of-3">
-                <div class="plan-box">
+                <div class="plan-box js--wp-4">
                     <div>
                         <h3>Premium</h3>
                         <p class="plan-price"> $399 <span>/month</span></P>
@@ -391,6 +392,9 @@
             <p>&copy; 2020 by Omnifood. All rights reserved.</p>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
 </body>
 
 </html>
